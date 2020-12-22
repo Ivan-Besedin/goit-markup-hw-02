@@ -5,6 +5,8 @@
   --link-color: #2196f3;
   --main-color: #212121;
   --text-color: #757575;
+  --logo-color-black: #000000;
+  --logo-color-white: #ffffff;
 }
 
 /* 
@@ -19,7 +21,7 @@ body {
   font-family: var(--main-text);
   font-style: normal;
   font-weight: normal;
-  background-color: #ffffff;
+  background-color: var(--body-collor);
 }
 
 a {
@@ -39,7 +41,7 @@ a {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-color-black);
 }
 .logo-slogan {
   color: #2196f3;
@@ -50,7 +52,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color);
 }
 .menu-nav:hover,
 .menu-nav:focus {
@@ -181,7 +183,7 @@ a {
 }
 
 .white-logo {
-  color: #ffffff;
+  color: var(--logo-color-white);
 }
 
 .map-address {
